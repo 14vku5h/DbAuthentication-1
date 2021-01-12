@@ -23,12 +23,12 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
 		Users lkv = new Users();
 		lkv.setFirstName("Lavkush");
 		lkv.setLastName("Verma");
-		lkv.setEmail("vermalavkush46@gmail.com");
+		lkv.setEmail("lavkush123@example.com");
 		lkv.setGender("Male");
-		lkv.setMobNo("8010719583");
-			c.setUserName("vermalavkush46@gmail.com");
-			c.setPassword("alliswell");
-			c.setConfirmPassword("alliswell");
+		lkv.setMobNo("09876543210");
+			c.setUserName("lavkush123@example.com");
+			c.setPassword("abcd1234");
+			c.setConfirmPassword("abcd1234");
 		lkv.setUserCredential(c);
 		
 		try {
@@ -37,9 +37,7 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
 			System.out.println("DataLoader error :failed to create user ");
 		}
 		
-		//service.addStudent(new Users("Lavkush Verma","vermalavkush46@gmail.com","alliswell","ROLE_USER"));
-		//service.addStudent(new Users("Suraj","ksuraj1002@gmail.com","allthebest","ROLE_USER"));
-		//System.out.println("done.");
+		System.out.println("..........done.");
 		
 	}
 	
